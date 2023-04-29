@@ -20,24 +20,24 @@
 .projectFactsWrap .item{
   width: 25%;
   height: 100%;
-  padding: 49px 0px;
+  padding: 50px 0px;
   text-align: center;
 }
 
 .projectFactsWrap .item:nth-child(1){
-  background: rgb(16, 31, 46);
+  background: rgb(0 33 71);
 }
 
 .projectFactsWrap .item:nth-child(2){
-  background: rgb(18, 34, 51);
+  background: rgb(1, 28, 61);
 }
 
 .projectFactsWrap .item:nth-child(3){
-  background: rgb(21, 38, 56);
+  background: rgb(1, 30, 51);
 }
 
 .projectFactsWrap .item:nth-child(4){
-  background: rgb(23, 44, 66);
+  background: rgb(0 33 41);
 }
 
 .projectFactsWrap .item p.number{
