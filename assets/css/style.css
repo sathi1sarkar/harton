@@ -123,7 +123,7 @@ h6 {
 }
 h3 {
     color: #fff;
-    font-weight: 700;
+    font-weight: 600;
 }
 p {
   color: var(--paragraph-color);
@@ -1024,7 +1024,7 @@ ul {
 }
 
 .bg-base {
-  background: var(--main-color);
+  background: #002147;
 }
 
 .bg-yellow {
@@ -1833,7 +1833,7 @@ ul {
   background: #fff;
 }
 .navbar-area-2.sticky-active {
-  background: var(--heading-color);
+  background: #002147;
 }
 
 .navbar-area-3 {
