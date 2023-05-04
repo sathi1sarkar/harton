@@ -4232,7 +4232,10 @@ height: 88px;
   padding: 40px 40px 50px 40px;
   border-radius: 7px;
 }
-
+.get_in_touch {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
 .get_in_touch .home-contact-form {
     background-color: #ffffff;
     padding: 30px;
@@ -4458,4 +4461,119 @@ height: 88px;
 }
 .footer-area-2 .footer-bottom .widget_nav_menu ul li a:hover {
   color: #1DC295;
+}
+
+.about_us_content {
+  padding: 4rem 5rem;
+}
+
+.about_us_content h1 {
+  font-size: 39px;
+  font-weight: 700;
+  color: #1f2e38;
+}
+.about_us_content h1 span{
+  font-size: 39px;
+  font-weight: 700;
+  color: #009688ed;
+}
+
+.iq-recent-job {
+  margin-top: 45px
+}
+
+.iq-recent-job .iq-jobdetail {
+  background: #f7f7f7;
+  margin-bottom: 30px;
+  position: relative;
+  display: block;
+  border-radius: 5px;
+  padding: 30px;
+  transition: all .3s ease-in-out 0s;
+  -webkit-transition: all .3s ease-in-out 0s;
+  -moz-transition: all .3s ease-in-out 0s;
+  -ms-transition: all .3s ease-in-out 0s;
+  box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)
+}
+
+.iq-recent-job .iq-jobdetail ul.job-description li {
+  margin-right: 0;
+  font-size: 13px;
+  line-height: 24px;
+  margin-bottom: 6px
+}
+
+.iq-recent-job .iq-jobdetail ul.job-description li b {
+  font-size: 22px;
+  line-height: 19px;
+  margin: 3px 8px 0 0;
+  float: left
+}
+
+.iq-recent-job .iq-jobdetail .office-top {
+  display: inline-block;
+  width: 100%;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #333
+}
+
+.iq-recent-job .iq-jobdetail .office-top h6,.iq-recent-job .iq-jobdetail .office-top p {
+  text-transform: capitalize
+}
+
+.iq-recent-job .iq-jobdetail .office-top .timeago {
+  font-size: 14px;
+  float: right;
+  display: inline-block;
+  line-height: 38px;
+  text-transform: lowercase;
+  margin-bottom: 0
+}
+
+.iq-recent-job .office-detail {
+  margin-top: 25px
+}
+
+.iq-recent-job .office-bottom {
+  margin-top: 15px
+}
+
+.iq-recent-job .iq-jobdetail .iq-company-logo {
+  margin-right: 15px;
+  display: inline-block;
+  vertical-align: middle
+}
+
+.iq-recent-job .office-bottom .country {
+  text-transform: capitalize
+}
+
+.iq-recent-job .office-bottom ul {
+  margin: 0;
+  padding: 0
+}
+
+.iq-recent-job .office-bottom ul li {
+  display: inline-block;
+  margin-right: 30px
+}
+
+.iq-recent-job .office-bottom ul li a {
+  color: inherit
+}
+
+.iq-recent-job .iq-jobdetail a:hover,.iq-recent-job .office-bottom ul li a:hover {
+  text-decoration: none;
+  outline: none
+}
+
+.iq-recent-job .office-bottom ul li i {
+  margin-right: 6px
+}
+
+.iq-recent-job .iq-jobdetail .office-top .cmp-name {
+  line-height: 40px;
+  display: inline-block;
+  font-size: 14px;
+  margin-right: 5px
 }
