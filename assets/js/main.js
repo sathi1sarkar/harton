@@ -29,7 +29,7 @@
 
                 $(this).siblings('.sub-menu').animate({
                     height: "toggle"
-                }, 300);
+                }, 800);
             });
         }
 
