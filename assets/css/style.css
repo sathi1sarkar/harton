@@ -1827,10 +1827,12 @@ ul {
   color: #fff;
 }
 .navbar-area-2 .nav-container .navbar-collapse .navbar-nav > li.menu-item-has-children:before {
+  height: 0px;
   background: #fff;
 }
 .navbar-area-2 .nav-container .navbar-collapse .navbar-nav > li.menu-item-has-children:after {
   background: #fff;
+  height: 0px;
 }
 .navbar-area-2.sticky-active {
   background: #002147;
