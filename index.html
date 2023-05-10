@@ -18,7 +18,46 @@
     <link rel="stylesheet" href="assets/css/project.css">
     <link rel="stylesheet" href="assets/font/font.css">
     <style>
-       
+        .dropdown-submenu {
+            position: relative;
+        }
+
+        .dropdown-submenu>.dropdown-menu {
+            top: 0;
+            left: 100%;
+            margin-top: -6px;
+            margin-left: -1px;
+            -webkit-border-radius: 0 6px 6px 6px;
+            -moz-border-radius: 0 6px 6px;
+            border-radius: 0 6px 6px 6px;
+        }
+
+        .dropdown:hover>.dropdown-menu {
+            display: block;
+        }
+
+        .dropdown-submenu:hover>.dropdown-menu {
+            display: block;
+        }
+
+        .dropdown-submenu>a:after {
+            display: block;
+            content: " ";
+            float: right;
+            width: 0;
+            height: 0;
+            border-color: transparent;
+            border-left-color: #ccc;
+            margin-top: 5px;
+            margin-right: -10px;
+        }
+
+        .dropdown-submenu:hover>a {
+          color:#fff!important;
+        }
+       #id:hover{
+        color:#fff!important;
+       }
     </style>
 </head>
 
@@ -105,9 +144,22 @@
                             <a href="" class="d-flex">Services
                                 <i class="fa fa-angle-down"></i>
                             </a>
-                            
+
                             <ul class="dropdown-nav sub-menu">
-                                <li><a href=""> Call Center Services</a></li>
+                                
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Call Center Services <b
+                                            class="caret"></b></a>
+                                    <ul class="dropdown-menu multi-level">
+                                        <li><a href="#" id="bg" onMouseOver="this.style.color='#fff'"
+                                            onMouseOut="this.style.color='#000'">Level 1</a></li>
+                                        <li class="dropdown-submenu">
+                                            <a href="#" class="cl" style="color:#000;">Level 2</a>
+                                            <!-- Level 2 -->
+                                            
+                                        </li>
+                                    </ul>
+                                </li>
                                 <li><a href="">Medical Billing Services</a></li>
                                 <li><a href="">Back Office Operations</a></li>
                                 <li><a href="">LPO</a></li>
@@ -115,7 +167,7 @@
                                 <li><a href="">IT Solutions</a></li>
                             </ul>
                         </li>
-                        
+
                         <li class="">
                             <a href="jobs.html">Jobs</a>
                         </li>
