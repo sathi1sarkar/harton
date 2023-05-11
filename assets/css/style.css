@@ -4867,11 +4867,17 @@ background-color: #002147;
     padding: 50px 0px;
     text-align: center;
 }
+.real_estate .img-content {
+  padding-top: 0rem !important;
+}
 }
 .real_estate {
   padding: 3rem 0;
 }
 .real_estate .img-content {
+  padding-top: 8rem;
+}
+.real_estate .img-content2 {
   padding-top: 8rem;
 }
 .real_estate .image {
