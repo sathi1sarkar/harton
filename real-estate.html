@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Harton-Contact</title>
-    <link rel=icon href="assets/img/favicon.jpeg" sizes="20x20" type="image/jpeg">
+    <link rel=icon href="assets/img/favicon.png" sizes="20x20" type="image/png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -17,11 +17,68 @@
     <link rel="stylesheet" href="assets/css/responsive.css">
     <link rel="stylesheet" href="assets/css/project.css">
     <link rel="stylesheet" href="assets/font/font.css">
-    <style>
-
-    </style>
-
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
 </head>
+<style>
+    .slider{
+        max-width: 1100px;
+        display: flex;
+      }
+      .slider .card{
+        flex: 1;
+        margin: 0 10px;
+        background: #fff;
+      }
+      .slider .card .img{
+        height: 200px;
+        width: 100%;
+      }
+      .slider .card .img img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+      }
+      .slider .card .content{
+        padding: 10px 20px;
+      }
+      .card .content .title{
+        font-size: 16px;
+        font-weight: 400;
+      }
+      .card .content .sub-title{
+        font-size: 20px;
+        font-weight: 500;
+        color: #008d83;
+        line-height: 20px;
+      }
+      .card .content p{
+        text-align: justify;
+        margin: 10px 0;
+      }
+      .card .content .btn{
+        display: block;
+        text-align: left;
+        margin: 10px 0;
+        padding:0;
+        line-height: 39px;
+      }
+      .card .content .btn button{
+        background: #002147;
+        color: #fff;
+        border: none;
+        outline: none;
+        font-size: 17px;
+        padding: 0px 15px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.2s;
+      }
+      .card .content .btn button:hover{
+        transform: scale(0.9);
+      }
+</style>
 
 <body>
 
@@ -139,7 +196,7 @@
                 <div class="col-lg-8 align-self-center">
                     <div class="banner-inner style-white text-center text-lg-left">
                         <h6 class="b-animate-1 sub-title">WELCOME TO HARTRON</h6>
-                        <h1 class="b-animate-2 title">Virtual Assistants At Your Command</h1>
+                        <h1 class="b-animate-2 title">Harton Real Estate Angency</h1>
                     </div>
                 </div>
             </div>
@@ -147,154 +204,109 @@
     </div>
     <!-- breadcrumb end -->
 
-    <section class=" position-relative pt-3 pb-0">
+    <section class="real_estate">
         <div class="container">
-            <div class="row iq-recent-job">
-                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-                    <div class="iq-jobdetail">
-                        <div class="office-top">
-                            <h6 class="cmp-name">Senior Role</h6>
-                            <p class="timeago text-muted">3 - 5 years</p>
-                        </div>
-                        <div class="office-detail">
-                            <h4 class="title mb-0">Applied AI Developer</h4>
-                        </div>
-                        <div class="office-bottom">
-                            <ul class="job-description">
-                                <li><b>•</b> Bachelor's or Master's degree in Computer Science, or equivalent education
-                                </li>
-                                <li><b>•</b> Minimum of 3-5 years of industry experience in Applied Machine Learning
-                                    &amp; Deep Learning</li>
-                                <li><b>•</b> Good knowledge of Python or R programming</li>
-                                <li><b>•</b> Experience in AI frameworks Tensorflow, Keras, Pytorch, Sklearn, Pandas,
-                                    Numpy, etc</li>
-                                <li><b>•</b> Deep knowledge of ML &amp; DL algorithms such as XgBoost, LSTM, RNN, CNN,
-                                    GAN, Clustering, etc</li>
-                                <li><b>•</b> Excellent oral and written communication</li>
-                            </ul>
-                            <ul class="mt-4">
-                                <li><i class="fa fa-map-marker text-muted" aria-hidden="true"></i><span
-                                        class="country text-muted">Chandigarh</span></li>
-                                <li class="pull-right mr-0"><a href="mailto:hello@crossml.com" target="_blank"
-                                        class="btn btn-outline-secondary">Apply Now</a></li>
-                            </ul>
-                        </div>
+            <div class="row img-content">
+                <div class="col-lg-6 col-md-6 left-side">
+                    <h4>ABOUT <span>HARTON</span></h4>
+
+                    <div class="content">
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                            galley of type and scrambled it to make a type specimen book. It has survived not only five
+                            centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                            It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
+                            passages, and more recently with desktop publishing software like Aldus PageMaker including
+                            versions of Lorem Ipsum.
+                        </p>
+
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-                    <div class="iq-jobdetail">
-                        <div class="office-top">
-                            <h6 class="cmp-name">Senior Role</h6>
-                            <p class="timeago text-muted">3 - 5 years</p>
-                        </div>
-                        <div class="office-detail">
-                            <h4 class="title mb-0">NLP Developer</h4>
-                        </div>
-                        <div class="office-bottom">
-                            <ul class="job-description">
-                                <li><b>•</b> Bachelor's or Master's degree in Computer Science, or equivalent education
-                                </li>
-                                <li><b>•</b> Minimum of 3-5 years of industry experience in OCR, NLP, NER, Text Mining,
-                                    Sentiment Analysis, etc</li>
-                                <li><b>•</b> Good knowledge of Python or R programming</li>
-                                <li><b>•</b> Experience in OCR, NLP, NER frameworks Tesseract, NLTK, Spacy, Tabula, etc
-                                </li>
-                                <li><b>•</b> Knowledge of 3rd party OCR API's like AWS Textract, Google Vision, Azure
-                                    OCR, etc</li>
-                                <li><b>•</b> Excellent oral and written communication</li>
-                            </ul>
-                            <ul class="mt-4">
-                                <li><i class="fa fa-map-marker text-muted" aria-hidden="true"></i><span
-                                        class="country text-muted">Chandigarh</span></li>
-                                <li class="pull-right mr-0"><a href="mailto:hello@crossml.com" target="_blank"
-                                        class="btn btn-outline-secondary">Apply Now</a></li>
-                            </ul>
-                        </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="image">
+                        <img src="assets/img/gallery/1.jpeg" alt="img">
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-                    <div class="iq-jobdetail">
-                        <div class="office-top">
-                            <h6 class="cmp-name">Senior Role</h6>
-                            <p class="timeago text-muted">3 - 5 years</p>
-                        </div>
-                        <div class="office-detail">
-                            <h4 class="title mb-0">Python Full Stack</h4>
-                        </div>
-                        <div class="office-bottom">
-                            <ul class="job-description">
-                                <li><b>•</b> Bachelor's or Master's degree in Computer Science, or equivalent education
-                                </li>
-                                <li><b>•</b> Minimum of 3-5 years of industry experience in python programming and
-                                    software develoment.</li>
-                                <li><b>•</b> Experience in Django, Flask, FastAPI, MySQL, MongoDB, Postgres, etc</li>
-                                <li><b>•</b> Hands-on with HTML/CSS, Javascript, Angular</li>
-                                <li><b>•</b> Knowledge of with AWS Cloud, DevOps, Deployments on Nginx, Linux, etc</li>
-                                <li><b>•</b> Excellent oral and written communication</li>
-                            </ul>
-                            <ul class="mt-4">
-                                <li><i class="fa fa-map-marker text-muted" aria-hidden="true"></i><span
-                                        class="country text-muted">Chandigarh</span></li>
-                                <li class="pull-right mr-0"><a href="mailto:hello@crossml.com" target="_blank"
-                                        class="btn btn-outline-secondary">Apply Now</a></li>
-                            </ul>
-                        </div>
+            </div>
+            <div class="row img-content">
+                <div class="col-lg-6 col-md-6">
+                    <div class="image">
+                        <img src="assets/img/gallery/2.jpeg" alt="img">
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-6 left-side">
+                    <h4>ABOUT <span>HARTON</span></h4>
+
+                    <div class="content">
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                            galley of type and scrambled it to make a type specimen book. It has survived not only five
+                            centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                            It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
+                            passages, and more recently with desktop publishing software like Aldus PageMaker including
+                            versions of Lorem Ipsum.
+                        </p>
+
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- team area end -->
-    <section class="job_apply">
+    <section class="card-section">
         <div class="container">
-            <div class="row d-flex align-items-center justify-content-center">
-                <div class="col-lg-6 col-md-9">
-                    <div class="map">
-                        <img src="assets/img/contact.jpg" alt="map">
+            <div class="slider owl-carousel">
+                <div class="card">
+                    <div class="img">
+                        <img src="assets/img/gallery/home1.jpg" alt="img"></div>
+                    <div class="content">
+                        <div class="title">
+                            VILLAS Brooklyn</div>
+                        <div class="sub-title">
+                        Mountain Cabin</div>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit modi dolorem quis quae animi
+                            nihil minus sed unde voluptas cumque.</p>
+                        <div class="btn">
+                            <button>Buy Now</button>
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-9">
-                    <div class="home-contact-form">
-                        <h4 class="form-title">
-                            Apply for the job
-                        </h4>
-                        <p class="form-detail">
-                            Vero id posuere tempus aspernatur quaerat mollis voluptatum eveniet porro
-                        </p>
-                        <form class="contact-form row">
-                            <div class="col-12 form-height">
-                                <label for="name" class="form-label">Full Name</label>
-                                <input type="text" class="form-control" placeholder="Your Name*" fdprocessedid="qswhq">
-                            </div>
-                            <div class="row apply">
-                                <div class="col-6 form-height">
-                                    <label for="name" class="form-label">Email</label>
-                                    <input type="email" class="form-control" placeholder="Your Email*"
-                                        fdprocessedid="t3l018">
-                                </div>
-                                <div class="col-6 form-height">
-                                    <label for="number" class="form-label">Phone</label>
-                                    <input type="number" class="form-control" placeholder="Your phone*"
-                                        fdprocessedid="t3l018">
-                                </div>
-                            </div>
-                            <div class="col-12 form-height">
-                                <div class="mb-3">
-                                    <label for="formFile" class="form-label">Your Resume(upload pdf/docx/doc file)</label>
-                                    <input class="form-control" type="file" id="formFile">
-                                </div>
-                            </div>
-                            <div class="col-sm-12 form-height">
-                                <label for="name" class="form-label">Message</label>
-                                <textarea placeholder="Enter message" rows="4"></textarea>
-                            </div>
-                            <div class="col-12 text-center text-md-start">
-                                <button type="submit" class="button submit" fdprocessedid="42ck1i">submit
-                                    message</button>
-                            </div>
-                        </form>
+                <div class="card">
+                    <div class="img">
+                        <img src="assets/img/gallery/home2.jpg" alt="img"></div>
+                    <div class="content">
+                        <div class="title">
+                            VILLAS Brooklyn</div>
+                        <div class="sub-title">
+                        Mountain Cabin</div>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit modi dolorem quis quae animi
+                            nihil minus sed unde voluptas cumque.</p>
+                        <div class="btn">
+                            <button>Buy Now</button>
+                        </div>
                     </div>
                 </div>
+                <div class="card">
+                    <div class="img">
+                        <img src="assets/img/gallery/home3.jpg" alt="img"></div>
+                    <div class="content">
+                        <div class="title">
+                            VILLAS Brooklyn</div>
+                        <div class="sub-title">
+                        Mountain Cabin</div>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit modi dolorem quis quae animi
+                            nihil minus sed unde voluptas cumque.</p>
+                        <div class="btn">
+                            <button>Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
             </div>
         </div>
     </section>
@@ -383,8 +395,29 @@
         <span class="back-top"><i class="fa fa-angle-up"></i></span>
     </div>
     <!-- back to top area end -->
-
-
+    <script>
+        $(".slider").owlCarousel({
+            loop: true,
+            autoplay: true,
+            autoplayTimeout: 2000, //2000ms = 2s;
+            autoplayHoverPause: true,
+            responsive: {
+                0:{
+                  items: 1
+                },
+                480:{
+                  items: 2
+                },
+                769:{
+                  items: 3
+                }
+            }
+          });
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
     <!-- all plugins here -->
     <script src="assets/js/vendor.js"></script>
     <!-- main js  -->
