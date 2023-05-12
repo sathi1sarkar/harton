@@ -4313,9 +4313,9 @@ height: 88px;
   }
 
   .job_apply {
-background-color: #002147;
+    background-color: #002147;
     padding-top: 2rem;
-    padding-bottom: 2rem;
+    margin-bottom: 6rem;
   }
   .job_apply .home-contact-form {
       background-color: transparent;
@@ -4567,7 +4567,14 @@ background-color: #002147;
   font-weight: 700;
   color: #009688ed;
 }
-
+.about_us_content .image {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.about_us_content .image img {
+  width: 76%;
+}
 .iq-recent-job {
   margin-top: 45px
 }
@@ -4786,7 +4793,9 @@ background-color: #002147;
    text-decoration: none;
    border: none;
  }
- 
+ .bar {
+  font-size:35px !important;
+}
  .toggle:hover { background-color: #000000; }
  
  [id^=drop]:checked + ul { display: block; }
@@ -4869,6 +4878,9 @@ background-color: #002147;
 }
 .real_estate .img-content {
   padding-top: 0rem !important;
+}
+.about_us_content {
+ padding: 0;
 }
 }
 .real_estate {
