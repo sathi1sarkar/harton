@@ -1,0 +1,44 @@
+
+h3 {
+    color: #002147;
+    font-weight: 600;
+}
+.service_content .dividerHeading {
+  display: flex;
+}
+.service_content .dividerHeading hr {
+  width: 64%;
+  margin-left: 13px;
+  border-top: 1px solid #009688;
+  background-color: #009688;
+  opacity: 1;
+}
+.service_content .list ul{
+    position: relative;
+    list-style: none;
+}
+.service_content .list ul li{
+  display: flex;
+  align-items: center;
+}
+.service_content .list ul li::after {
+content: "";
+position: absolute;
+left: 0;
+height: 6px;
+width: 6px;
+background: #009688ed;
+}
+.service_content .lists ul li{
+  margin-bottom: 20px;
+}
+.service_content .left-side img {
+  width: 380px;
+  height: 220px;
+  float: left;
+  margin: 0 15px 8px 0;
+}
+.service_content .left-side p {
+  font-size: 14px;
+  text-align: justify;
+}
